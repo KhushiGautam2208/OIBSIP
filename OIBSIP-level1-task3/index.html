@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temperature Convertor</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Open+Sans:ital,wght@0,300;1,300;1,400&family=Playfair+Display:wght@500&family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <form action="">
+        <h2>Temperature convertor</h2><br><br>
+        <label for="temp_value" id="value-label">Enter value</label><br>
+        <input type="text" class="temp_value"> <br><br><br>
+
+        <div class="temperature-preference">
+
+          <div class="from-temp-container">
+
+            <label for="from" id="from-label">From</label><br>
+            <select name="" id="from">
+              <option value="celsius">Celsius</option>
+              <option value="fahrenheit">Fahrenheit</option>
+              <option value="kelvin">Kelvin</option>
+        </select><br><br> 
+          </div>
+
+          <div class="to-temp-container">
+            <label for="to" id="to-label">To</label><br>
+            <select name="to" id="to">
+              <option value="celsius">Celsius</option>
+              <option value="fahrenheit">fahrenheit</option>
+              <option value="kelvin">kelvin</option>
+            </select>
+            <br><br>
+
+          </div>
+        </div>
+
+        <label for="result" id="result-label">Result</label><br>
+        <span id="result">&nbsp;&nbsp;</span>  <br><br><br>
+
+        <button id="convertButton" type="button">Convert</button>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(40, 39, 39);
+}
+
+body{
+    background-image: url(background-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2{
+    text-transform: uppercase;
+    color: rgb(77, 69, 69);
+    font-family: 'Roboto Slab', serif;
+}
+
+form{
+   width:30vw;
+   height:60vh;
+   border-style: none;
+   padding:40px;
+   margin: 15vh 35vw;
+   border-radius: 20px;
+   background-color: rgba(222, 225, 227, 0.625);
+}
+
+form label{
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
+}
+
+#value-label, #from-label ,#result-label{
+    padding-top:20px;
+}
+
+.temperature-preference select, option{
+    color: rgb(97, 95, 95);
+}
+
+.temp_value,#from {
+    border-style: none;
+    border-bottom: 1px solid black;
+    padding:10px 15px;
+    background:transparent;
+}
+
+#to-label{
+    margin-left: 50px;  
+}
+
+ #to{
+    border-style: none;
+    border-bottom: 1px solid black;
+    padding:10px 15px;
+    background:transparent;
+    margin-left: 50px;
+}
+
+.temperature-preference{
+    display: flex;
+}
+
+#convertButton{
+    background-color: rgba(0, 187, 255, 0.784);
+    color:white;
+    padding:12px 90px;
+    border-radius:14px;
+    border-style: none;
+    font-size: large;
+    margin-left: 50px;
+}
